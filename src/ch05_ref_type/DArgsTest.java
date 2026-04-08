@@ -2,7 +2,7 @@ package ch05_ref_type;
 
 public class DArgsTest {
 
-	public static void main(String[] args) { // 이 메소드를 실행하는 데 필요한 데이터를 집어넣는다.
+	public static void main(String[] args) {
 
 		System.out.println("main 메소드 실행");
 

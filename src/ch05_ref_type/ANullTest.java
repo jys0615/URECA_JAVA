@@ -29,4 +29,3 @@ public class ANullTest {
 	} // main
 
 }
-// 메모리를 할당 받지 못한 것을 null이라고 한다. 
