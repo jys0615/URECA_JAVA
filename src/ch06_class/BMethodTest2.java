@@ -19,4 +19,4 @@ public class BMethodTest2 {
 		System.out.println("method2");
 	} // method2
 
-} // class
+}

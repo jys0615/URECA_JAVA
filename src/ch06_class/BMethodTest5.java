@@ -1,14 +1,8 @@
 package ch06_class;
 
 public class BMethodTest5 {
-	// 다 다르다고 인식한다.
+
 	public void method() {}
-
-	public void method(int k, int z) {}
-
-	public void method(int i) {}
-	
-	public void method(String s) {}
 //	public void method() {} // error - 일반적으로 동일한 메소드를 만들 수 없다
 
 	/*
@@ -20,6 +14,6 @@ public class BMethodTest5 {
 	public void sum(int a, int b) {}
 //	public int sum(int x, int y) {} // error - 리턴 타입이 다르다고 다른 메소드로 인식 안함
 	public void sum(int a, int b, int c) {}
-	public void sum(double a, double b) {} // 타입이 다르므로 다른 메소드로 인식한다. 
+	public void sum(double a, double b) {}
 
 } // class
