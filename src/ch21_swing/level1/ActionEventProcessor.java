@@ -20,6 +20,7 @@ public class ActionEventProcessor implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		String command = e.getActionCommand();
 		System.out.println("command : " + command);
+
 		if(command.equals("ToDown")) {
 			tf2.setText( tf1.getText() );
 			tf1.setText("");

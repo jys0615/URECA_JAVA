@@ -20,15 +20,21 @@ public class MenuEventProcessor implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		String command = e.getActionCommand();
+//		card.show( frm.getContentPane(), command );
+
 		if(command.equals("BLUE")) {
 			card.show( frm.getContentPane(), command );
-		} else if(command.equals("GRAY")) {
+		}
+		else if(command.equals("GRAY")) {
 			card.show( frm.getContentPane(), command );
-		} else if(command.equals("PINK")) {
+		}
+		else if(command.equals("PINK")) {
 			card.show( frm.getContentPane(), command );
-		} else if(command.equals("GREEN")) {
+		}
+		else if(command.equals("GREEN")) {
 			card.show( frm.getContentPane(), command );
-		} else if(command.equals("ORANGE")) {
+		}
+		else if(command.equals("ORANGE")) {
 			card.show( frm.getContentPane(), command );
 		}
 	} // actionPerformed

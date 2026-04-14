@@ -20,12 +20,12 @@ public class AExceptTest1 {
 //			System.out.println(str.charAt(5));
 			String str2 = null;
 			System.out.println(str2.length());
-		} catch (ClassNotFoundException e) {
+		} catch (ClassNotFoundException e) { // 클래스가 존재하지 않을 때 발생하는 예외
 			System.out.println("ClassNotFoundException 발생");
 			e.printStackTrace(); // exception 추적 로그 출력
-		} catch (ArithmeticException e) {
+		} catch (ArithmeticException e) { // 0으로 나눌 때 발생하는 예외
 			System.out.println("ArithmeticException 발생");
-		} catch (IndexOutOfBoundsException e) { // polymorphic argument
+		} catch (IndexOutOfBoundsException e) { // polymorphic argument.
 			if(e instanceof ArrayIndexOutOfBoundsException)
 				System.out.println("ArrayIndexOutOfBoundsException 발생");
 			else if(e instanceof StringIndexOutOfBoundsException)
